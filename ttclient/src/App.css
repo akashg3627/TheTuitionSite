@@ -1,0 +1,35 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.row-nav{
+  flex-wrap: nowrap;
+}
+
+.row-header{
+  background-color: #fdc800;
+  font-weight: 800;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.row-content {
+  margin:0px auto;
+  padding: 50px 0px 50px 0px;
+  border-bottom: 1px ridge;
+  min-height:400px;
+}
+
+.footer{
+  background-color: #f4f4f2;
+  margin:0px auto;
+  padding: 20px 0px 20px 0px;
+}
+address{
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
+}
+

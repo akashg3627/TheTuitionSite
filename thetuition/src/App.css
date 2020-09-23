@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@700&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #e8f0f3;
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body{
+  padding-top: 100px;
+  font-size: calc(5px + 1vw);
+} 
+.headers{
+  background-color: #002147;
+  color: #e8f0f3;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+.h-apply{
+  background-color: #fdc800;
+  color: black;
+border: #fdc800 solid 2px;
+border-radius: 3px;
+padding: 10px 20px;
+}
+.h-title{
+  color: #e8f0f3;
+}
+.container{
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+.navbar-dark .navbar-nav .nav-link {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  color: #e8f0f3;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #FDC80B;
+}
+
+.custom-tag{
+  max-width: 100%;
+}
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 94vw;
+}
+@media (min-width: 900px)
+{.navbar-expand-md>.container, .navbar-expand-md>.container-fluid, .navbar-expand-md>.container-lg, .navbar-expand-md>.container-md, .navbar-expand-md>.container-sm, .navbar-expand-md>.container-xl {
+    flex-wrap: nowrap;
+}}
+.navbar-dark .navbar-toggler {
+  color: rgba(255,255,255,.5);
+  border-color: rgba(255,255,255,.1);
+  margin: auto;
+}
