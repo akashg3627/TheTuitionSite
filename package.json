@@ -5,7 +5,7 @@
   "scripts": {
     "server": "nodemon ./bin/www",
     "client": "cd ttclient && npm start",
-    "start": "concurrently \"npm run server\" \"npm run client\" "
+    "dev": "concurrently \"npm run server\" \"npm run client\" "
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -15,6 +15,7 @@
     "debug": "~2.6.9",
     "dotenv": "^8.2.0",
     "express": "~4.16.1",
+    "heroku": "^7.43.2",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
     "jsonwebtoken": "^8.5.1",
