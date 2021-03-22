@@ -5,6 +5,8 @@ function HomeComponent(props) {
     return (
         <div>
             <Header />
+            
+            <img src="logo512.png" width="1600px"></img>
             <Footer />
         </div>
     );

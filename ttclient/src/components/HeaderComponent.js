@@ -49,8 +49,7 @@ class Header extends Component {
                         <NavbarToggler onClick={this.toggleNav} />
                         <div className="col-3">
                         <NavbarBrand href="/">
-                            <img src="assets/images/logo.png" height="30" width="41"
-                                alt="TheTuition" />
+                            <span>Hasta La Vista</span>
                         </NavbarBrand>
                         </div>
                         <div className="col-9">
@@ -58,7 +57,7 @@ class Header extends Component {
                             <Nav className="m-auto" navbar>
                                 <NavItem>
                                     <NavLink className="nav-link" to="/home">
-                                        <span className="fa fa-home fa-lg"></span> Home
+                                        <span className="fa fa-home fa-lg"></span> Home 
                                     </NavLink>
                                 </NavItem>
                                 <NavItem>
@@ -66,16 +65,8 @@ class Header extends Component {
                                         <span className="fa fa-info fa-lg"></span> About Us
                                     </NavLink>
                                 </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" to="/menu">
-                                        <span className="fa fa-list fa-lg"></span> Menu
-                                    </NavLink>
-                                </NavItem>
-                                <NavItem>
-                                    <NavLink className="nav-link" to="/favorites">
-                                        <span className="fa fa-heart fa-lg"></span> My Favorites
-                                    </NavLink>
-                                </NavItem>
+
+                            
                                 <NavItem>
                                     <NavLink className="nav-link" to="/contactus">
                                         <span className="fa fa-address-card fa-lg"></span> Contact Us
